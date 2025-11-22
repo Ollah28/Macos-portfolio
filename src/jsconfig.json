@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",                    // Start looking from the folder where this file is
+    "paths": {
+      "#*": ["src/*"]                  // ← THIS IS THE MAGIC LINE
+    }
+  },
+
+  "include": ["src"]                   // Only care about files inside src folder
+}
